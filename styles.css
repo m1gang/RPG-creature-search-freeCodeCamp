@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Zen+Dots&display=swap');
+
+body {
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: hsl(120, 3%, 8%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background:
+        linear-gradient(to right, white, white);
+    color: transparent;
+
+    background-clip: text;
+    text-shadow: 2px 2px 0px white;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+#search-form h2 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+input,
+button {
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    padding: 16px;
+}
+
+input {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    border: rgb(0, 0, 0) 1px solid;
+}
+
+button {
+    border-radius: 0 5px 5px 0;
+    border: none;
+    color: white;
+    background-color: black;
+    border: rgb(0, 0, 0) 1px solid;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background:
+        linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8));
+    color: black;
+    border: rgb(0, 0, 0) 1px solid;
+    font-weight: 900;
+    transition: all 0.3s ease-in-out;
+}
+
+.show-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.show-info span {
+    display: flex;
+    align-items: center;
+}
+
+.show-info .name p {
+    margin: 20px 5px 10px 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.show-info .medida p {
+    margin: 0 5px 10px 5px;
+    font-size: 15px;
+}
+
+.show-info .type {
+    background-color: gray;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.show-stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+}
+
+td,
+tr,
+th {
+    border: 5px solid white;
+    padding: 5px 50px;
+}
+
+svg {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    fill: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.799);
+    border-radius: 5px;
+}
