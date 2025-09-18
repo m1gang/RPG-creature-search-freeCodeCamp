@@ -32,13 +32,13 @@ Es una aplicación web sencilla que permite **buscar criaturas RPG** por nombre 
 ---
 
 ## 📂 Estructura del proyecto
-bash
-Copiar código
+```
 📦 rpg-creature-search-app
 ├── index.html        # Página principal
 ├── styles.css        # Estilos de la app
 ├── script.js         # Lógica de búsqueda y renderizado
 └── README.md         # Documentación del proyecto
+```
 ---
 
 ## 🌐 Demo
